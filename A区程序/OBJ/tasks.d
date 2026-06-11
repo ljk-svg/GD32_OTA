@@ -1,0 +1,16 @@
+..\obj\tasks.o: ..\Middlewares\FreeRTOS\src\tasks.c
+..\obj\tasks.o: E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\tasks.o: E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\Bin\..\include\string.h
+..\obj\tasks.o: ..\Middlewares\FreeRTOS\inc\FreeRTOS.h
+..\obj\tasks.o: E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\tasks.o: E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\tasks.o: ..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h
+..\obj\tasks.o: ..\Middlewares\FreeRTOS\inc\projdefs.h
+..\obj\tasks.o: ..\Middlewares\FreeRTOS\inc\portable.h
+..\obj\tasks.o: ..\Middlewares\FreeRTOS\inc\deprecated_definitions.h
+..\obj\tasks.o: ..\Middlewares\FreeRTOS\port\portmacro.h
+..\obj\tasks.o: ..\Middlewares\FreeRTOS\inc\mpu_wrappers.h
+..\obj\tasks.o: ..\Middlewares\FreeRTOS\inc\task.h
+..\obj\tasks.o: ..\Middlewares\FreeRTOS\inc\list.h
+..\obj\tasks.o: ..\Middlewares\FreeRTOS\inc\timers.h
+..\obj\tasks.o: ..\Middlewares\FreeRTOS\inc\stack_macros.h

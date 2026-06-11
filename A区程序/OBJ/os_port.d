@@ -1,0 +1,15 @@
+..\obj\os_port.o: ..\Middlewares\os_port.c
+..\obj\os_port.o: ..\Middlewares\os_port.h
+..\obj\os_port.o: E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\os_port.o: E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\os_port.o: ..\Middlewares\FreeRTOS\inc\FreeRTOS.h
+..\obj\os_port.o: ..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h
+..\obj\os_port.o: ..\Middlewares\FreeRTOS\inc\projdefs.h
+..\obj\os_port.o: ..\Middlewares\FreeRTOS\inc\portable.h
+..\obj\os_port.o: ..\Middlewares\FreeRTOS\inc\deprecated_definitions.h
+..\obj\os_port.o: ..\Middlewares\FreeRTOS\port\portmacro.h
+..\obj\os_port.o: ..\Middlewares\FreeRTOS\inc\mpu_wrappers.h
+..\obj\os_port.o: ..\Middlewares\FreeRTOS\inc\task.h
+..\obj\os_port.o: ..\Middlewares\FreeRTOS\inc\list.h
+..\obj\os_port.o: ..\Middlewares\FreeRTOS\inc\semphr.h
+..\obj\os_port.o: ..\Middlewares\FreeRTOS\inc\queue.h

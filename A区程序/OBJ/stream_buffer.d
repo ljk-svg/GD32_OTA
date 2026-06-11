@@ -1,0 +1,14 @@
+..\obj\stream_buffer.o: ..\Middlewares\FreeRTOS\src\stream_buffer.c
+..\obj\stream_buffer.o: E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\stream_buffer.o: E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\Bin\..\include\string.h
+..\obj\stream_buffer.o: ..\Middlewares\FreeRTOS\inc\FreeRTOS.h
+..\obj\stream_buffer.o: E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\stream_buffer.o: ..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h
+..\obj\stream_buffer.o: ..\Middlewares\FreeRTOS\inc\projdefs.h
+..\obj\stream_buffer.o: ..\Middlewares\FreeRTOS\inc\portable.h
+..\obj\stream_buffer.o: ..\Middlewares\FreeRTOS\inc\deprecated_definitions.h
+..\obj\stream_buffer.o: ..\Middlewares\FreeRTOS\port\portmacro.h
+..\obj\stream_buffer.o: ..\Middlewares\FreeRTOS\inc\mpu_wrappers.h
+..\obj\stream_buffer.o: ..\Middlewares\FreeRTOS\inc\task.h
+..\obj\stream_buffer.o: ..\Middlewares\FreeRTOS\inc\list.h
+..\obj\stream_buffer.o: ..\Middlewares\FreeRTOS\inc\stream_buffer.h

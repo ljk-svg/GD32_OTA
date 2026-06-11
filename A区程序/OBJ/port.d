@@ -1,0 +1,12 @@
+..\obj\port.o: ..\Middlewares\FreeRTOS\port\port.c
+..\obj\port.o: ..\Middlewares\FreeRTOS\inc\FreeRTOS.h
+..\obj\port.o: E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\port.o: E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\port.o: ..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h
+..\obj\port.o: ..\Middlewares\FreeRTOS\inc\projdefs.h
+..\obj\port.o: ..\Middlewares\FreeRTOS\inc\portable.h
+..\obj\port.o: ..\Middlewares\FreeRTOS\inc\deprecated_definitions.h
+..\obj\port.o: ..\Middlewares\FreeRTOS\port\portmacro.h
+..\obj\port.o: ..\Middlewares\FreeRTOS\inc\mpu_wrappers.h
+..\obj\port.o: ..\Middlewares\FreeRTOS\inc\task.h
+..\obj\port.o: ..\Middlewares\FreeRTOS\inc\list.h

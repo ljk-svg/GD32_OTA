@@ -1,0 +1,15 @@
+..\obj\w25q64.o: ..\APP\w25q64.c
+..\obj\w25q64.o: ..\APP\w25q64.h
+..\obj\w25q64.o: E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\w25q64.o: ..\HW\Include\hw_spi.h
+..\obj\w25q64.o: ..\Middlewares\os_port.h
+..\obj\w25q64.o: E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\w25q64.o: ..\Middlewares\FreeRTOS\inc\FreeRTOS.h
+..\obj\w25q64.o: ..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h
+..\obj\w25q64.o: ..\Middlewares\FreeRTOS\inc\projdefs.h
+..\obj\w25q64.o: ..\Middlewares\FreeRTOS\inc\portable.h
+..\obj\w25q64.o: ..\Middlewares\FreeRTOS\inc\deprecated_definitions.h
+..\obj\w25q64.o: ..\Middlewares\FreeRTOS\port\portmacro.h
+..\obj\w25q64.o: ..\Middlewares\FreeRTOS\inc\mpu_wrappers.h
+..\obj\w25q64.o: ..\Middlewares\FreeRTOS\inc\task.h
+..\obj\w25q64.o: ..\Middlewares\FreeRTOS\inc\list.h

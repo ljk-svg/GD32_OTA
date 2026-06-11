@@ -1,0 +1,13 @@
+..\obj\croutine.o: ..\Middlewares\FreeRTOS\src\croutine.c
+..\obj\croutine.o: ..\Middlewares\FreeRTOS\inc\FreeRTOS.h
+..\obj\croutine.o: E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\croutine.o: E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\croutine.o: ..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h
+..\obj\croutine.o: ..\Middlewares\FreeRTOS\inc\projdefs.h
+..\obj\croutine.o: ..\Middlewares\FreeRTOS\inc\portable.h
+..\obj\croutine.o: ..\Middlewares\FreeRTOS\inc\deprecated_definitions.h
+..\obj\croutine.o: ..\Middlewares\FreeRTOS\port\portmacro.h
+..\obj\croutine.o: ..\Middlewares\FreeRTOS\inc\mpu_wrappers.h
+..\obj\croutine.o: ..\Middlewares\FreeRTOS\inc\task.h
+..\obj\croutine.o: ..\Middlewares\FreeRTOS\inc\list.h
+..\obj\croutine.o: ..\Middlewares\FreeRTOS\inc\croutine.h

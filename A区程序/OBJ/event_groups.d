@@ -1,0 +1,15 @@
+..\obj\event_groups.o: ..\Middlewares\FreeRTOS\src\event_groups.c
+..\obj\event_groups.o: E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\event_groups.o: ..\Middlewares\FreeRTOS\inc\FreeRTOS.h
+..\obj\event_groups.o: E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\event_groups.o: E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\event_groups.o: ..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h
+..\obj\event_groups.o: ..\Middlewares\FreeRTOS\inc\projdefs.h
+..\obj\event_groups.o: ..\Middlewares\FreeRTOS\inc\portable.h
+..\obj\event_groups.o: ..\Middlewares\FreeRTOS\inc\deprecated_definitions.h
+..\obj\event_groups.o: ..\Middlewares\FreeRTOS\port\portmacro.h
+..\obj\event_groups.o: ..\Middlewares\FreeRTOS\inc\mpu_wrappers.h
+..\obj\event_groups.o: ..\Middlewares\FreeRTOS\inc\task.h
+..\obj\event_groups.o: ..\Middlewares\FreeRTOS\inc\list.h
+..\obj\event_groups.o: ..\Middlewares\FreeRTOS\inc\timers.h
+..\obj\event_groups.o: ..\Middlewares\FreeRTOS\inc\event_groups.h

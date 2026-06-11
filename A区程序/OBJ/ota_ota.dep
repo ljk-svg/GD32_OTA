@@ -1,0 +1,764 @@
+Dependencies for Project 'ota', Target 'ota': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\main.c)(0x6A2A80D1)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x69E5BEA1)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fwdgt.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOS.h)(0x69CFB1FA)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h)(0x69D345EC)
+I (..\Middlewares\FreeRTOS\inc\projdefs.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\portable.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\deprecated_definitions.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\port\portmacro.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\mpu_wrappers.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\task.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\list.h)(0x64020E50)
+I (onenet_app.h)(0x69E44411)
+I (..\Middlewares\os_port.h)(0x69D5DE29)
+I (..\HW\Include\usart.h)(0x69D0D160)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\HW\Include\hw_usart1.h)(0x69D33B07)
+I (..\APP\at24c02.h)(0x69CFC29E)
+I (task_wdt.h)(0x6A2A80D1)
+F (.\onenet_app.c)(0x6A2A8109)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\onenet_app.o --omf_browse ..\obj\onenet_app.crf --depend ..\obj\onenet_app.d)
+I (onenet_app.h)(0x69E44411)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Middlewares\esp8266_at.h)(0x69D0EFA9)
+I (..\Middlewares\os_port.h)(0x69D5DE29)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOS.h)(0x69CFB1FA)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h)(0x69D345EC)
+I (..\Middlewares\FreeRTOS\inc\projdefs.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\portable.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\deprecated_definitions.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\port\portmacro.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\mpu_wrappers.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\task.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\list.h)(0x64020E50)
+I (..\HW\Include\hw_usart1.h)(0x69D33B07)
+I (..\HW\Include\usart.h)(0x69D0D160)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\APP\ota_fsm.h)(0x69E5BEB7)
+I (..\APP\at24c02.h)(0x69CFC29E)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x69E5BEA1)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fwdgt.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+I (task_wdt.h)(0x6A2A80D1)
+F (.\onenet_app.h)(0x69E44411)()
+F (.\task_wdt.c)(0x6A2A80D1)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\task_wdt.o --omf_browse ..\obj\task_wdt.crf --depend ..\obj\task_wdt.d)
+I (task_wdt.h)(0x6A2A80D1)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\HW\Include\hw_wdt.h)(0x69E5BEC2)
+I (..\Middlewares\os_port.h)(0x69D5DE29)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOS.h)(0x69CFB1FA)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h)(0x69D345EC)
+I (..\Middlewares\FreeRTOS\inc\projdefs.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\portable.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\deprecated_definitions.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\port\portmacro.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\mpu_wrappers.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\task.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\list.h)(0x64020E50)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\HW\Include\usart.h)(0x69D0D160)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\string.h)(0x6025237E)
+F (.\task_wdt.h)(0x6A2A80D1)()
+F (..\CMSIS\Source\system_gd32f10x.c)(0x69D36A9B)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\system_gd32f10x.o --omf_browse ..\obj\system_gd32f10x.crf --depend ..\obj\system_gd32f10x.d)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x69E5BEA1)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fwdgt.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+F (..\CMSIS\Source\startup_gd32f10x_md.s)(0x62CCE014)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 537" --pd "GD32F10X_MD SETA 1" --pd "USE_STDPERIPH_DRIVER SETA 1"--list .\listings\startup_gd32f10x_md.lst --xref -o ..\obj\startup_gd32f10x_md.o --depend ..\obj\startup_gd32f10x_md.d)
+F (..\HW\Source\gd32f10x_it.c)(0x69E47204)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\gd32f10x_it.o --omf_browse ..\obj\gd32f10x_it.crf --depend ..\obj\gd32f10x_it.d)
+I (..\HW\Include\gd32f10x_it.h)(0x62CCE00D)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x69E5BEA1)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fwdgt.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+I (..\HW\Include\usart.h)(0x69D0D160)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\APP\at24c02.h)(0x69CFC29E)
+F (..\HW\Source\usart.c)(0x69D0D160)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\HW\Include\usart.h)(0x69D0D160)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x69E5BEA1)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fwdgt.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+I (..\Middlewares\os_port.h)(0x69D5DE29)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOS.h)(0x69CFB1FA)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h)(0x69D345EC)
+I (..\Middlewares\FreeRTOS\inc\projdefs.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\portable.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\deprecated_definitions.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\port\portmacro.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\mpu_wrappers.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\task.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\list.h)(0x64020E50)
+I (..\APP\ota_fsm.h)(0x69E5BEB7)
+F (..\HW\Source\hw_i2c.c)(0x69CFC0FE)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\hw_i2c.o --omf_browse ..\obj\hw_i2c.crf --depend ..\obj\hw_i2c.d)
+I (..\HW\Include\hw_i2c.h)(0x69CFC202)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x69E5BEA1)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fwdgt.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+I (..\HW\Include\delay.h)(0x63E5A732)
+I (..\Middlewares\os_port.h)(0x69D5DE29)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOS.h)(0x69CFB1FA)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h)(0x69D345EC)
+I (..\Middlewares\FreeRTOS\inc\projdefs.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\portable.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\deprecated_definitions.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\port\portmacro.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\mpu_wrappers.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\task.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\list.h)(0x64020E50)
+F (..\HW\Include\gd32f10x_it.h)(0x62CCE00D)()
+F (..\HW\Include\hw_i2c.h)(0x69CFC202)()
+F (..\HW\Include\usart.h)(0x69D0D160)()
+F (..\HW\Source\delay.c)(0x69D09991)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\HW\Include\delay.h)(0x63E5A732)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x69E5BEA1)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fwdgt.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+F (..\HW\Include\delay.h)(0x63E5A732)()
+F (..\HW\Source\hw_spi.c)(0x69D07B36)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\hw_spi.o --omf_browse ..\obj\hw_spi.crf --depend ..\obj\hw_spi.d)
+I (..\HW\Include\hw_spi.h)(0x69D07B36)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x69E5BEA1)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fwdgt.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+I (..\Middlewares\os_port.h)(0x69D5DE29)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOS.h)(0x69CFB1FA)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h)(0x69D345EC)
+I (..\Middlewares\FreeRTOS\inc\projdefs.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\portable.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\deprecated_definitions.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\port\portmacro.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\mpu_wrappers.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\task.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\list.h)(0x64020E50)
+F (..\HW\Include\hw_spi.h)(0x69D07B36)()
+F (..\HW\Include\hw_flash.h)(0x69D099BA)()
+F (..\HW\Source\hw_flash.c)(0x69D0A479)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\hw_flash.o --omf_browse ..\obj\hw_flash.crf --depend ..\obj\hw_flash.d)
+I (..\HW\Include\hw_flash.h)(0x69D099BA)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x69E5BEA1)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fwdgt.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+I (..\Middlewares\os_port.h)(0x69D5DE29)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOS.h)(0x69CFB1FA)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h)(0x69D345EC)
+I (..\Middlewares\FreeRTOS\inc\projdefs.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\portable.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\deprecated_definitions.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\port\portmacro.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\mpu_wrappers.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\task.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\list.h)(0x64020E50)
+F (..\HW\Source\hw_cpu.c)(0x69D0A8BE)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\hw_cpu.o --omf_browse ..\obj\hw_cpu.crf --depend ..\obj\hw_cpu.d)
+I (..\HW\Include\hw_cpu.h)(0x69D0A8BE)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x69E5BEA1)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fwdgt.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+F (..\HW\Include\hw_cpu.h)(0x69D0A8BE)()
+F (..\HW\Source\hw_usart1.c)(0x69D48F41)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\hw_usart1.o --omf_browse ..\obj\hw_usart1.crf --depend ..\obj\hw_usart1.d)
+I (..\HW\Include\hw_usart1.h)(0x69D33B07)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x69E5BEA1)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fwdgt.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+I (..\Middlewares\os_port.h)(0x69D5DE29)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOS.h)(0x69CFB1FA)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h)(0x69D345EC)
+I (..\Middlewares\FreeRTOS\inc\projdefs.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\portable.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\deprecated_definitions.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\port\portmacro.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\mpu_wrappers.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\task.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\list.h)(0x64020E50)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\HW\Include\usart.h)(0x69D0D160)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdio.h)(0x60252374)
+F (..\HW\Include\hw_usart1.h)(0x69D33B07)()
+F (..\HW\Source\hw_wdt.c)(0x69E5BEC2)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\hw_wdt.o --omf_browse ..\obj\hw_wdt.crf --depend ..\obj\hw_wdt.d)
+I (..\HW\Include\hw_wdt.h)(0x69E5BEC2)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x69E5BEA1)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fwdgt.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+F (..\HW\Include\hw_wdt.h)(0x69E5BEC2)()
+F (..\LIB\Source\gd32f10x_misc.c)(0x62CCE011)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\gd32f10x_misc.o --omf_browse ..\obj\gd32f10x_misc.crf --depend ..\obj\gd32f10x_misc.d)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x69E5BEA1)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fwdgt.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+F (..\LIB\Source\gd32f10x_rcu.c)(0x62CCE011)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\gd32f10x_rcu.o --omf_browse ..\obj\gd32f10x_rcu.crf --depend ..\obj\gd32f10x_rcu.d)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x69E5BEA1)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fwdgt.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+F (..\LIB\Source\gd32f10x_gpio.c)(0x62CCE010)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\gd32f10x_gpio.o --omf_browse ..\obj\gd32f10x_gpio.crf --depend ..\obj\gd32f10x_gpio.d)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x69E5BEA1)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fwdgt.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+F (..\LIB\Source\gd32f10x_usart.c)(0x62CCE011)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\gd32f10x_usart.o --omf_browse ..\obj\gd32f10x_usart.crf --depend ..\obj\gd32f10x_usart.d)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x69E5BEA1)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fwdgt.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+F (..\LIB\Source\gd32f10x_dma.c)(0x62CCE011)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\gd32f10x_dma.o --omf_browse ..\obj\gd32f10x_dma.crf --depend ..\obj\gd32f10x_dma.d)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x69E5BEA1)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fwdgt.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+F (..\LIB\Source\gd32f10x_spi.c)(0x62CCE011)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\gd32f10x_spi.o --omf_browse ..\obj\gd32f10x_spi.crf --depend ..\obj\gd32f10x_spi.d)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x69E5BEA1)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fwdgt.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+F (..\LIB\Source\gd32f10x_fmc.c)(0x62CCE011)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\gd32f10x_fmc.o --omf_browse ..\obj\gd32f10x_fmc.crf --depend ..\obj\gd32f10x_fmc.d)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x69E5BEA1)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fwdgt.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+F (..\LIB\Source\gd32f10x_wwdgt.c)(0x62CCE010)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\gd32f10x_wwdgt.o --omf_browse ..\obj\gd32f10x_wwdgt.crf --depend ..\obj\gd32f10x_wwdgt.d)
+I (..\LIB\Include\gd32f10x_wwdgt.h)(0x62CCE010)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x69E5BEA1)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fwdgt.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+F (..\LIB\Source\gd32f10x_fwdgt.c)(0x62CCE010)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\gd32f10x_fwdgt.o --omf_browse ..\obj\gd32f10x_fwdgt.crf --depend ..\obj\gd32f10x_fwdgt.d)
+I (..\LIB\Include\gd32f10x_fwdgt.h)(0x62CCE010)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x69E5BEA1)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+F (..\Middlewares\FreeRTOS\src\croutine.c)(0x64020E50)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\croutine.o --omf_browse ..\obj\croutine.crf --depend ..\obj\croutine.d)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOS.h)(0x69CFB1FA)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h)(0x69D345EC)
+I (..\Middlewares\FreeRTOS\inc\projdefs.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\portable.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\deprecated_definitions.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\port\portmacro.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\mpu_wrappers.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\task.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\list.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\croutine.h)(0x64020E50)
+F (..\Middlewares\FreeRTOS\src\event_groups.c)(0x64020E50)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\event_groups.o --omf_browse ..\obj\event_groups.crf --depend ..\obj\event_groups.d)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOS.h)(0x69CFB1FA)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h)(0x69D345EC)
+I (..\Middlewares\FreeRTOS\inc\projdefs.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\portable.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\deprecated_definitions.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\port\portmacro.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\mpu_wrappers.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\task.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\list.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\timers.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\event_groups.h)(0x64020E50)
+F (..\Middlewares\FreeRTOS\src\list.c)(0x64020E50)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\list.o --omf_browse ..\obj\list.crf --depend ..\obj\list.d)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOS.h)(0x69CFB1FA)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h)(0x69D345EC)
+I (..\Middlewares\FreeRTOS\inc\projdefs.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\portable.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\deprecated_definitions.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\port\portmacro.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\mpu_wrappers.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\list.h)(0x64020E50)
+F (..\Middlewares\FreeRTOS\src\queue.c)(0x64020E50)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\queue.o --omf_browse ..\obj\queue.crf --depend ..\obj\queue.d)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOS.h)(0x69CFB1FA)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h)(0x69D345EC)
+I (..\Middlewares\FreeRTOS\inc\projdefs.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\portable.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\deprecated_definitions.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\port\portmacro.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\mpu_wrappers.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\task.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\list.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\queue.h)(0x64020E50)
+F (..\Middlewares\FreeRTOS\src\stream_buffer.c)(0x64020E50)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\stream_buffer.o --omf_browse ..\obj\stream_buffer.crf --depend ..\obj\stream_buffer.d)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOS.h)(0x69CFB1FA)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h)(0x69D345EC)
+I (..\Middlewares\FreeRTOS\inc\projdefs.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\portable.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\deprecated_definitions.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\port\portmacro.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\mpu_wrappers.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\task.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\list.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\stream_buffer.h)(0x64020E50)
+F (..\Middlewares\FreeRTOS\src\tasks.c)(0x64020E50)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\tasks.o --omf_browse ..\obj\tasks.crf --depend ..\obj\tasks.d)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOS.h)(0x69CFB1FA)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h)(0x69D345EC)
+I (..\Middlewares\FreeRTOS\inc\projdefs.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\portable.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\deprecated_definitions.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\port\portmacro.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\mpu_wrappers.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\task.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\list.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\timers.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\stack_macros.h)(0x64020E50)
+F (..\Middlewares\FreeRTOS\src\timers.c)(0x64020E50)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\timers.o --omf_browse ..\obj\timers.crf --depend ..\obj\timers.d)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOS.h)(0x69CFB1FA)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h)(0x69D345EC)
+I (..\Middlewares\FreeRTOS\inc\projdefs.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\portable.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\deprecated_definitions.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\port\portmacro.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\mpu_wrappers.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\task.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\list.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\queue.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\timers.h)(0x64020E50)
+F (..\Middlewares\FreeRTOS\port\heap_4.c)(0x64020E50)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\heap_4.o --omf_browse ..\obj\heap_4.crf --depend ..\obj\heap_4.d)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOS.h)(0x69CFB1FA)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h)(0x69D345EC)
+I (..\Middlewares\FreeRTOS\inc\projdefs.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\portable.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\deprecated_definitions.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\port\portmacro.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\mpu_wrappers.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\task.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\list.h)(0x64020E50)
+F (..\Middlewares\FreeRTOS\port\port.c)(0x64020E50)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\port.o --omf_browse ..\obj\port.crf --depend ..\obj\port.d)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOS.h)(0x69CFB1FA)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h)(0x69D345EC)
+I (..\Middlewares\FreeRTOS\inc\projdefs.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\portable.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\deprecated_definitions.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\port\portmacro.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\mpu_wrappers.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\task.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\list.h)(0x64020E50)
+F (..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h)(0x69D345EC)()
+F (..\Middlewares\os_port.c)(0x69D5DE29)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\os_port.o --omf_browse ..\obj\os_port.crf --depend ..\obj\os_port.d)
+I (..\Middlewares\os_port.h)(0x69D5DE29)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOS.h)(0x69CFB1FA)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h)(0x69D345EC)
+I (..\Middlewares\FreeRTOS\inc\projdefs.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\portable.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\deprecated_definitions.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\port\portmacro.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\mpu_wrappers.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\task.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\list.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\semphr.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\queue.h)(0x64020E50)
+F (..\Middlewares\os_port.h)(0x69D5DE29)()
+F (..\Middlewares\esp8266_at.c)(0x69D48F38)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\esp8266_at.o --omf_browse ..\obj\esp8266_at.crf --depend ..\obj\esp8266_at.d)
+I (..\Middlewares\esp8266_at.h)(0x69D0EFA9)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Middlewares\os_port.h)(0x69D5DE29)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOS.h)(0x69CFB1FA)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h)(0x69D345EC)
+I (..\Middlewares\FreeRTOS\inc\projdefs.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\portable.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\deprecated_definitions.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\port\portmacro.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\mpu_wrappers.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\task.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\list.h)(0x64020E50)
+I (..\HW\Include\hw_usart1.h)(0x69D33B07)
+I (..\HW\Include\usart.h)(0x69D0D160)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\string.h)(0x6025237E)
+F (..\Middlewares\esp8266_at.h)(0x69D0EFA9)()
+F (..\APP\sys_param.c)(0x69E5BEA8)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\sys_param.o --omf_browse ..\obj\sys_param.crf --depend ..\obj\sys_param.d)
+I (..\APP\sys_param.h)(0x69CFAEFA)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOS.h)(0x69CFB1FA)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h)(0x69D345EC)
+I (..\Middlewares\FreeRTOS\inc\projdefs.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\portable.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\deprecated_definitions.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\port\portmacro.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\mpu_wrappers.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\semphr.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\queue.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\task.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\list.h)(0x64020E50)
+F (..\APP\sys_param.h)(0x69CFAEFA)()
+F (..\APP\at24c02.c)(0x69E43F24)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\at24c02.o --omf_browse ..\obj\at24c02.crf --depend ..\obj\at24c02.d)
+I (..\APP\at24c02.h)(0x69CFC29E)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\HW\Include\hw_i2c.h)(0x69CFC202)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (E:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x69E5BEA1)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fwdgt.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+I (..\Middlewares\os_port.h)(0x69D5DE29)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOS.h)(0x69CFB1FA)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h)(0x69D345EC)
+I (..\Middlewares\FreeRTOS\inc\projdefs.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\portable.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\deprecated_definitions.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\port\portmacro.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\mpu_wrappers.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\task.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\list.h)(0x64020E50)
+F (..\APP\at24c02.h)(0x69CFC29E)()
+F (..\APP\w25q64.c)(0x69D07B61)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\w25q64.o --omf_browse ..\obj\w25q64.crf --depend ..\obj\w25q64.d)
+I (..\APP\w25q64.h)(0x69D07B68)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\HW\Include\hw_spi.h)(0x69D07B36)
+I (..\Middlewares\os_port.h)(0x69D5DE29)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOS.h)(0x69CFB1FA)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h)(0x69D345EC)
+I (..\Middlewares\FreeRTOS\inc\projdefs.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\portable.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\deprecated_definitions.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\port\portmacro.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\mpu_wrappers.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\task.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\list.h)(0x64020E50)
+F (..\APP\w25q64.h)(0x69D07B68)()
+F (..\APP\ota_fsm.c)(0x69E5BEB7)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\ota_fsm.o --omf_browse ..\obj\ota_fsm.crf --depend ..\obj\ota_fsm.d)
+I (..\APP\ota_fsm.h)(0x69E5BEB7)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\HW\Include\usart.h)(0x69D0D160)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\string.h)(0x6025237E)
+F (..\APP\ota_fsm.h)(0x69E5BEB7)()
+F (..\APP\ota_logic.c)(0x69E43F24)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include -I ..\Middlewares\FreeRTOS\inc -I ..\Middlewares\FreeRTOS\port -I ..\APP -I ..\Middlewares -I ..\LIB\Include-IE:\Stm32CubeMax\My_Keil5\pack\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-D__UVISION_VERSION="537" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\ota_logic.o --omf_browse ..\obj\ota_logic.crf --depend ..\obj\ota_logic.d)
+I (..\APP\ota_fsm.h)(0x69E5BEB7)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\APP\w25q64.h)(0x69D07B68)
+I (..\APP\at24c02.h)(0x69CFC29E)
+I (..\HW\Include\hw_cpu.h)(0x69D0A8BE)
+I (..\HW\Include\usart.h)(0x69D0D160)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\Middlewares\os_port.h)(0x69D5DE29)
+I (E:\Stm32CubeMax\My_Keil5\core\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOS.h)(0x69CFB1FA)
+I (..\Middlewares\FreeRTOS\inc\FreeRTOSConfig.h)(0x69D345EC)
+I (..\Middlewares\FreeRTOS\inc\projdefs.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\portable.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\deprecated_definitions.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\port\portmacro.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\mpu_wrappers.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\task.h)(0x64020E50)
+I (..\Middlewares\FreeRTOS\inc\list.h)(0x64020E50)
